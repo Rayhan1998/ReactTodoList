@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+}
+.todo-input {
+  background-color: #10101d;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 70%;
+  color: white;
+  height: 50px;
+}
+
+.todo-input:focus {
+  outline: none;
+}

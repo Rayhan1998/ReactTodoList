@@ -1,11 +1,12 @@
 import React from "react";
 import { Box, Heading } from "@chakra-ui/react";
 
-export default function TodoTabs() {
+export default function TodoTabs({ todo }) {
+  console.log(todo);
   return (
-    <Box w="100%" h="30px" bg="#191933">
+    <Box w="90%" h="30px" bg="#191933" p="5px" m="10px auto">
       <Heading as="h2" fontSize="14px" color="white">
-        one
+        {todo}
       </Heading>
     </Box>
   );
